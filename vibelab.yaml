@@ -1,0 +1,42 @@
+app:
+  id: "7706815941862146088"
+  name: "断讯港"
+  slogan: "闯入封锁港区，切断敌方中继，在枪火中完成撤离。"
+  description: |
+    断讯港（SALTLINE）是一款为 PICO Swan 头显与双手柄适配的第一人称港区战斗游戏。进入被机械敌人封锁的集装箱码头，在通道、仓库和高处平台之间寻找进攻路线。利用掩体与爆炸物打开突破口，切断敌方通信中继，并在完成目标后前往撤离点。手中武器、空间状态界面和中继标记会随行动提供反馈，让射击、移动与目标推进连在一起。
+
+    - **任务与生存**：任务模式中切断三处中继并撤离；生存模式中迎战连续波次，争取更高得分。
+    - **双武器作战**：在 PAC-9 步枪与 PAC-4 手枪之间切换，配合瞄准、射击和换弹完成交战。
+    - **动态港区**：面对地面机械与空中敌人，利用场景中的爆炸物制造连锁打击。
+    - **手柄与双臂表现**：保留换弹手部动作、双臂联动、后坐力和弹着反馈，提供标准、困难与残酷三档难度。
+
+    使用左摇杆移动、右摇杆分段转向；右扳机射击，右侧握把瞄准，左 X 切换武器，右 B 换弹。适合喜欢目标推进、据点交战和生存挑战的玩家。本次采用清晰的 LDR 画面，关闭 HDR 后处理与体积雾。
+  tags: [ "动作射击" ]
+  category: "game"
+  icon: "assets/icon.jpg"
+  landscape: "assets/landscape.png"
+  detail_images:
+    - "assets/detail-1.png"
+    - "assets/detail-2.png"
+    - "assets/detail-3.png"
+    - "assets/detail-4.png"
+    - "assets/detail-5.png"
+  videos:
+    - file: "assets/demo.mp4"
+      cover: "assets/demo-cover.png"
+version:
+  name: "V1.0.0"
+  notes: |
+    - 首次发布 PICO Swan 版本，加入中文名称“断讯港”和专属应用图标。
+    - 提供 PAC-9 步枪、PAC-4 手枪，以及任务与生存两种模式。
+    - 支持三档难度、画质与操作设置，保留子弹、弹着、后坐力和爆炸连锁反馈。
+    - 适配双手柄切枪、瞄准和换弹，加入手部换弹动画与双臂 IK。
+    - 使用无 HDR 的清晰画面，保留此前港区环境和玩法。
+build:
+  repo_url: "https://github.com/yangel-yan/Saltline-XR"
+  repo_visibility: "public"
+  tech_stack: "unity"
+  ai_tool: "Codex CLI"
+  ai_model: "GPT-6"
+  features: [ "controller_support" ]
+  teammates: []

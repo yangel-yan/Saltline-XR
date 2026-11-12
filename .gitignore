@@ -1,0 +1,9 @@
+/.pico-env.json
+/assets/
+.vibelab/
+
+/.gradle/
+
+**/build/
+
+/local.properties
